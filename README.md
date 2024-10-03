@@ -25,7 +25,7 @@ For higher accuracy, refraction at the horizon and refraction of the atmosphere 
 adjustedDistance = geometricDistance / cos(horizonRefraction)
 
 // Incorporating atmospheric refraction to provide a final distance to the horizon
-	horizonDistance = adjustedDistance * (1 + atmosphericRefraction)
+horizonDistance = adjustedDistance * (1 + atmosphericRefraction)
 ```
 
 #### Drop Over Distance
@@ -35,7 +35,7 @@ For higher accuracy, the standard drop and the drop incorporating refraction are
 initialDrop = (convertedDistance * convertedDistance) / (2 * earthRadius)
 
 // Incorporating refraction to arrive at final drop
-	finalDrop = initialDrop * (convertedDistance / horizonDistance)
+finalDrop = initialDrop * (convertedDistance / horizonDistance)
 ```
 
 #### View Obstructed & View Visible
