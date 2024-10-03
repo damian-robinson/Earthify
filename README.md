@@ -50,12 +50,10 @@ viewVisible = max(0.0, objectHeight - viewObstructed)
 ---
 
 ## Screenshots
-![Home view showing app icon.](/earthify_home_icon.png "Home Screen")
-![New tab view.](/earthify_new_tab.png "New Tab")
-![Saved observation list.](/earthify_saved_list.png "Observations Tab")
-![Observation view.](/earthify_observation.png "Observation View")
-![Suspended view.](/earthify_suspended.png "Suspended View")
+![Home view showing app icon.](/earthify_home_icon.png "Home Screen"){:width="300px"} ![New tab view.](/earthify_new_tab.png "New Tab"){:width="300px"}
+![Saved observation list.](/earthify_saved_list.png "Observations Tab"){:width="300px"} ![Observation view.](/earthify_observation.png "Observation View"){:width="300px"}
+![Suspended view.](/earthify_suspended.png "Suspended View"){:width="300px"}
 ---
 
 ## Video Demo
-[Earthify Demo](/earthify_demo.mp4)
+[Watch the demo video 😁](/earthify_demo.mp4)
